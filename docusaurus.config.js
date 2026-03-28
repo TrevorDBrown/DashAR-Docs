@@ -12,19 +12,20 @@ const config = {
   tagline: 'The AR-based Automotive HUD Experience.',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
-
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'TrevorDBrown', // Usually your GitHub org/user name.
-  projectName: 'DashAR', // Usually your repo name.
+  projectName: 'DashAR-Docs', // Usually your repo name.
+
+  // Set the production url of your site here
+  url: `https://${organizationName}.github.io`,
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
+  baseUrl: `/${projectName}/`,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
