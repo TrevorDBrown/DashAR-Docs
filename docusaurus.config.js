@@ -115,10 +115,14 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/TrevorDBrown/DashAR',
               },
+              {
+                label: 'Thesis (DashAR: An Implementation of Augmented Reality Technology for Automotive Applications)',
+                href: 'https://digitalcommons.wku.edu/theses/3844/',
+              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Trevor D. Brown. Built with Docusaurus.`,
+        copyright: `Copyright © 2025-${new Date().getFullYear()} Trevor D. Brown. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
