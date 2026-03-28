@@ -116,7 +116,7 @@ const config = {
                 href: 'https://github.com/TrevorDBrown/DashAR',
               },
               {
-                label: 'Thesis (DashAR: An Implementation of Augmented Reality Technology for Automotive Applications)',
+                label: 'Master\'s Thesis for DashAR',
                 href: 'https://digitalcommons.wku.edu/theses/3844/',
               },
             ],
