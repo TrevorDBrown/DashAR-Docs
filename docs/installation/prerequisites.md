@@ -12,9 +12,9 @@ The following are the necessary prerequisites for setting up the DashAR System.
 To begin building the DashAR System, you will need the following hardware:
 
 - [XREAL AR Glasses](https://www.xreal.com/)
-  - For the development of this project, the [XREAL Air2 Pro](https://www.xreal.com/air2) glasses were used.
+  - For the development of this project, the [XREAL Air2 Pro](https://web.archive.org/web/20250927193029/https://next.xreal.com/us/air2/) glasses were used.
 - [XREAL Beam Pro](https://www.xreal.com/beampro)
-  - Since there is no compute on-board the XREAL Air2 Pro Glasses, this device is required. The newer models (XREAL One and XREAL One Pro) have on-board compute.
+  - Since there is no compute on-board the XREAL Air2 Pro Glasses, this device is required. The newer models as of late 2025 (XREAL One and XREAL One Pro) have on-board compute.
 - [USB-to-OBDII (ELM327) Adapter](https://en.wikipedia.org/wiki/ELM327)
   - This is how the car communicates with the rest of the system.
   - For the development of this project, [this specific adapter](https://www.amazon.com/dp/B0C3B11S7F) was used, for its reliability and stable connectivity. However, any ELM327-based adapter should work (wired or wireless).
@@ -26,9 +26,9 @@ To begin building the DashAR System, you will need the following hardware:
 To build and deploy the HUD application, you must have the following installed on your development system:
 
 - [Unity 3D (2022.03 LTS)](https://unity.com/)
-  - [NRSDK (2.3.1)](https://docs.xreal.com/Release%20Note/NRSDK%202.3.1)
+  - [NRSDK (2.3.1)](https://web.archive.org/web/20250208130303/https://docs.xreal.com/Release%20Note/NRSDK%202.3.1)
   - [Newtonsoft.JSON (3.2.1)](https://docs.unity3d.com/Packages/com.unity.nuget.newtonsoft-json@3.2/manual/index.html)
-  - [TextMeshPro](https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html)
+  - [TextMeshPro (3.0)](https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html)
 - [Android Studio](https://developer.android.com/studio)
   - Useful for SDK Version Management.
 
