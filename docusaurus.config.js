@@ -24,8 +24,14 @@ const config = {
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+      onBrokenMarkdownImages: 'warn'
+    }
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -59,7 +65,8 @@ const config = {
         title: 'DashAR',
         logo: {
           alt: 'DashAR Logo',
-          src: 'img/logo.svg',
+          src: 'img/dashar-logo.svg',
+          srcDark: 'img/dashar-logo-dark.svg',
         },
         items: [
           {
@@ -94,18 +101,18 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              // },
+              // {
+              //   label: 'Discord',
+              //   href: 'https://discordapp.com/invite/docusaurus',
+              // },
+              // {
+              //   label: 'Twitter',
+              //   href: 'https://twitter.com/docusaurus',
+              // },
             ],
           },
           {
@@ -116,7 +123,7 @@ const config = {
                 href: 'https://github.com/TrevorDBrown/DashAR',
               },
               {
-                label: 'Master\'s Thesis for DashAR',
+                label: 'Master\'s Thesis',
                 href: 'https://digitalcommons.wku.edu/theses/3844/',
               },
             ],
