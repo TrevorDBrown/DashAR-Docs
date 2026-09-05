@@ -1,0 +1,10 @@
+{
+  "label": "ARS",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Augmented Reality Subsystem",
+    "description": "This section covers the Augmented Reality Subsystem (ARS) of the DashAR system.",
+    "slug": "/reference/ars"
+  }
+}
