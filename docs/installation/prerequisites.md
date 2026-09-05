@@ -20,6 +20,7 @@ To begin building the DashAR System, you will need the following hardware:
   - For the development of this project, [this specific adapter](https://www.amazon.com/dp/B0C3B11S7F) was used, for its reliability and stable connectivity. However, any ELM327-based adapter should work (wired or wireless).
 - A portable computer
   - For the development of the project, a [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) running [Ubuntu Server 24.04 LTS](https://ubuntu.com/download/raspberry-pi) was used. However, as long as the portable computer selected has the ability to a) run Python, and b) connect to USB-A devices, it should work.
+  - Depending on your setup, a USB mass storage device or similar may be needed to install an OS onto the portable computer.
 
 ## HUD Application Prerequisites
 
