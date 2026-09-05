@@ -1,0 +1,10 @@
+{
+  "label": "ICS",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Intermediate Computing Subsystem",
+    "description": "This section covers the Intermediate Computing Subsystem (ICS) of the DashAR system.",
+    "slug": "/reference/ics"
+  }
+}

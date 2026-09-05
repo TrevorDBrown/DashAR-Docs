@@ -1,0 +1,9 @@
+{
+  "label": "HUD",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Heads Up Display Application",
+    "slug": "/reference/ars/hud"
+  }
+}
