@@ -1,0 +1,9 @@
+{
+  "label": "Configuration",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "The HUD configuration files for the DashAR System.",
+    "slug": "/reference/ars/hud/config"
+  }
+}

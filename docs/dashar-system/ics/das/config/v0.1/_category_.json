@@ -1,0 +1,9 @@
+{
+  "label": "v0.1",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "The DAS configuration files for the DashAR System.",
+    "slug": "/reference/ics/das/config/v0.1"
+  }
+}
