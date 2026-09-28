@@ -96,33 +96,29 @@ const config = {
               },
             ],
           },
-          // {
-          //   title: 'Community,
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/docusaurus',
-          //     },
-          //   ],
-          // },
+          {
+            title: 'Research',
+            items: [
+              {
+                label: 'Master\'s Thesis',
+                href: 'https://digitalcommons.wku.edu/theses/3844/',
+              },
+              {
+                label: 'ACM MidSoutheast 2024 Talk',
+                href: 'https://www.youtube.com/watch?v=SbX7w4Mj7Lw',
+              },
+              {
+                label: 'Thesis Defense',
+                href: 'https://www.youtube.com/watch?v=9qsRr2jUhq8',
+              },
+            ],
+          },
           {
             title: 'More',
             items: [
               {
                 label: 'GitHub',
                 href: 'https://github.com/TrevorDBrown/DashAR',
-              },
-              {
-                label: 'Master\'s Thesis',
-                href: 'https://digitalcommons.wku.edu/theses/3844/',
               },
             ],
           },
